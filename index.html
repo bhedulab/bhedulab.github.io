@@ -36,12 +36,12 @@ dialog{max-width:560px;border:1px solid var(--blue);background:var(--white);colo
 
 header,.site-logo-bar,.hero-logo{display:none!important}
 .bh-top{height:96px;background:#fff;display:flex;align-items:center;border-bottom:1px solid #e5e7eb}
-.bh-top-inner{width:min(1160px,88%);margin:0 auto;display:flex;flex-direction:column;align-items:flex-start;justify-content:center;line-height:1}
-.bh-top-title{font-family:'Montserrat',sans-serif;color:#0758C9;font-size:27px;font-weight:700;letter-spacing:.12em}
-.bh-top-tagline{font-family:'Montserrat',sans-serif;color:#6B7280;font-size:11px;letter-spacing:.34em;margin-top:9px}
+.bh-top-inner{width:min(1160px,88%);margin:0 auto;display:flex;flex-direction:column;align-items:flex-start;justify-content:center;line-height:1}.bh-top-inner>*{width:255px}
+.bh-top-title{font-family:'Montserrat',sans-serif;color:#0758C9;font-size:27px;font-weight:700;letter-spacing:.12em;white-space:nowrap}
+.bh-top-tagline{font-family:'Montserrat',sans-serif;color:#6B7280;font-size:11px;letter-spacing:.34em;margin-top:9px;width:100%;text-align:justify;text-align-last:justify}
 @media(max-width:520px){
   .bh-top{height:76px}
-  .bh-top-title{font-size:20px;letter-spacing:.1em}
+  .bh-top-inner>*{width:190px}.bh-top-title{font-size:20px;letter-spacing:.1em}
   .bh-top-tagline{font-size:9px;letter-spacing:.24em;margin-top:7px}
 }
 </style>
